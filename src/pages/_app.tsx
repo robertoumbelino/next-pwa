@@ -15,11 +15,12 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
         <title>PWA Next</title>
+        <link rel="icon" href="/favicon.ico" />
 
         <meta name="theme-color" content="red" />
         <meta name="mobile-web-app-capable" content="yes" />
 
-        <meta name="apple-mobile-web-app-title" content="Application Title" />
+        <meta name="apple-mobile-web-app-title" content="PWA Next" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
@@ -28,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
         <meta name="msapplication-config" content="browserconfig.xml" />
 
-        <meta name="application-name" content="Application Name" />
+        <meta name="application-name" content="PWA Next" />
         <meta name="msapplication-tooltip" content="Tooltip Text" />
         <meta name="msapplication-starturl" content="/" />
 
