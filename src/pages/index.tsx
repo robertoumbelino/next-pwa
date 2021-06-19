@@ -26,7 +26,7 @@ export default function Home() {
           height="100vh"
         >
           <Image
-            src="/images/rocket.png"
+            src="/images/icons/icon-192x192.png"
             alt="Logo"
             sizes="192px"
             layout="fixed"
