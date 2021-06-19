@@ -47,6 +47,8 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="imagemode" content="force" />
 
         <meta name="screen-orientation" content="portrait"></meta>
+
+        <link href="/manifest.json" rel="manifest" />
       </Head>
 
       <Component {...pageProps} />
