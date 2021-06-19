@@ -40,7 +40,7 @@ export default function Home() {
 
           <Flex margin={{ top: 50 }} flexDirection="column">
             <Typography variant="p" isWhite fontSize={2}>
-              This is a simple but effective PWA Next Boilerplate.
+              This is a simple but effective boilerplate to PWA Next.
             </Typography>
 
             <Typography variant="p" isWhite fontSize={3}>
