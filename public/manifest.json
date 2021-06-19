@@ -5,9 +5,9 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "name": "PWA Next",
+    "name": "Next PWA",
     "short_name": "PWA",
-    "description": "Exemplo de PWA com Next",
+    "description": "Next with PWA",
     "icons": [
         {
             "src": "images/icons/icon-192x192.png",

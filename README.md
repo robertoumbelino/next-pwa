@@ -2,7 +2,7 @@
   <img alt="Mono Repo" width="120" title="Mono Repo" src=".github/icon.png" />
 </p>
 
-<h1 align="center">PWA Next Boilerplate</h1>
+<h1 align="center">Next PWA Boilerplate</h1>
 
 <p align="center">
   <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
