@@ -1,6 +1,14 @@
 import Head from 'next/head'
 
-import '../styles/globals.css'
+/**
+ * Theme.
+ */
+import { ThemeProvider } from 'styled-components'
+
+/**
+ * Styles.
+ */
+import { GlobalStyles, theme } from '../styles/GlobalStyles'
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -12,10 +20,8 @@ export default function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <meta name="description" content="Description" />
+        <meta name="description" content="PWA Next Boilerplate" />
         <meta name="keywords" content="Keywords" />
-        <title>PWA Next</title>
-        <link rel="icon" href="/favicon.ico" />
 
         <meta name="theme-color" content="red" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -37,21 +43,17 @@ export default function MyApp({ Component, pageProps }) {
 
         <meta name="full-screen" content="yes" />
         <meta name="browsermode" content="application" />
-
         <meta name="nightmode" content="enable/disable" />
-
         <meta name="viewport" content="uc-fitscreen=yes" />
-
         <meta name="layoutmode" content="fitscreen/standard" />
-
         <meta name="imagemode" content="force" />
-
         <meta name="screen-orientation" content="portrait"></meta>
-
-        <link href="/manifest.json" rel="manifest" />
       </Head>
 
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   )
 }
