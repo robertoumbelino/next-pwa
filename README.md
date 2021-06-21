@@ -34,7 +34,7 @@ This project is a simple but effective boilerplate to Next PWA.
 
 ## 📝 Licença
 
-Used license MIT.
+Used MIT license.
 
 ---
 
