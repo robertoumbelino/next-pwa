@@ -20,7 +20,7 @@
 
 ## 🚀 Techs
 
-Used technologies in this project.
+Technologies used in this project.
 
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
