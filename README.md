@@ -32,7 +32,7 @@ Technologies used in this project.
 
 This project is a simple but effective boilerplate to Next PWA.
 
-## 📝 Licença
+## 📝 License
 
 Used MIT license.
 
