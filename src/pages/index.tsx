@@ -28,22 +28,26 @@ export default function Home() {
           <Image
             src="/images/icons/icon-192x192.png"
             alt="Logo"
-            sizes="192px"
+            sizes="96px"
             layout="fixed"
-            width={192}
-            height={192}
+            width={100}
+            height={100}
           />
 
-          <Typography variant="h1" isWhite fontSize={5}>
+          <Typography variant="h1" isWhite fontSize={3}>
             Welcome
           </Typography>
 
-          <Flex margin={{ top: 50 }} flexDirection="column">
-            <Typography variant="p" isWhite fontSize={2}>
+          <Flex
+            margin={{ top: 16 }}
+            padding={{ all: 8 }}
+            flexDirection="column"
+          >
+            <Typography variant="p" isWhite fontSize={1}>
               This is a simple but effective boilerplate to Next PWA.
             </Typography>
 
-            <Typography variant="p" isWhite fontSize={3}>
+            <Typography variant="p" isWhite fontSize={2}>
               I hope you like 👍
             </Typography>
           </Flex>
